@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  background: black;
+  width: 100%;
+  height: 70px;
+  display: block;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+    z-index: 1;
+  
+}
+
+h1 {
+  color: white;
+  font-family: 'Aldrich';
+  font-size: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5%;
+  margin-bottom: 5%;
+
+}
+
+.Datos {
+  display: block;
+  color: black;
+  overflow: hidden;
+
+}
+
+h2 {
+  font-family: "Aldrich";
+  font-size: 40px;
+  margin-top: 150px;
+  margin-left: 30px;
+  color: #212124;
+  text-align: center;
+}
+
+h3 {
+  color: Black;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+
+}
+
+h4 {
+  color: white;
+  font-family: "Aldrich";
+  font-size: 15px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  text-align: center;
+  background: #4169E1;
+  width: 17%;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h6 {
+  color: black;
+  font-family: "Aldrich";
+  font-size: 15px;
+  margin-top: 40px;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+p3 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  width: auto;
+
+}
+
+.cita {
+  margin-left: 53%;
+  width: 60%;
+  font-size: 50%;
+  overflow-x: hidden;
+}
+
+blockquote {
+  margin-top: 100px;
+  font-size: 20px;
+  width: 50%;
+  text-align: justify;
+  margin-left: 10%;
+  overflow: hidden;
+}
+
+img {
+  border-style: outset;
+  border-color: black grey grey Black;
+  border-width: 1px;
+  width: 80%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  overflow: hidden;
+}
+
+.Intro {
+  text-align: justify;
+  width: 80%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  color: Black;
+  overflow: hidden;
+}
+
+
+.mapa{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.Cuerpo {
+  text-align: justify;
+  width: 80%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  color: Black;
+  overflow: hidden;
+}
+
+
+.Peroratio {
+  text-align: justify;
+  width: 80%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  color: Black;
+  overflow: hidden;
+}
+
+.Cierre {
+  text-align: justify;
+  width: 80%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  color: Black;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.Conclusion {
+  text-align: justify;
+  width: 80%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  color: Black;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+
+
+p {
+  line-height: 20px;
+  border-color: black;
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+p1 {
+  line-height: 20px;
+  border-color: black;
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+
+.museo{
+  margin: 0;
+  overflow-x: hidden;
+}
+
+iframe {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-width: 20px;
+  border-radius: 10px;
+  border-left: Black;
+  border-right: white;
+  overflow:hidden;
+}
+
+a {
+  font-family: 'Aldrich';
+  font-size: 20px;
+  color: blue;
+  text-decoration: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.container{
+  margin: auto;
+  background-color: white;
+  width: 800px;
+  height: 600px;
+  padding: 0px;
+  border-radius: 30px;
+
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+ul.slider{
+  position: relative;
+  width: 800px;
+  height: 500px;
+
+}
+
+ul.slider li {
+    position: absolute;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    margin-top: -100px;
+
+}
+
+ul.slider li img{
+  width: 90%;
+  height: 500px;
+  object-fit: contain;
+  border: none;
+  margin-top: 17%;
+  background: white;
+}
+
+ul.slider li:first-child {
+    opacity: 1;
+}
+
+ul.slider li:target {
+    opacity: 1;
+}
+
+.menu{
+  text-align: center;
+  margin-top: -2%;
+  margin-bottom: 5%;
+  background: white;
+  position: relative;
+  width: 17%;
+  height: 6%;
+  border-radius: 15px;
+  align-items: center;
+  display: flex;
+
+}
+
+.menu li{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.menu li a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+  border-radius: 100%;
+  align-items: center;
+
+}
+
+sup {
+  color: red;
+
+}
+
+.poly{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.video{
+  display: block;
+  overflow: hidden;
+}
+
+.Lista{
+  width: 80%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  background-size: cover;
+  border-style: ridge;
+  overflow-x: hidden;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background: black;
+  display: flex;
+  margin-top: 300px;
+  position: absolute;
+
+}
+
+h5 {
+  font-family: "Roboto";
+  display: flex;
+  font-size: 15px;
+  color: white;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+#aud {
+  display: block;
+  margin-top: 60px;
+  font-size: 10px;
+  text-align: center;
+  overflow: hidden;
+}
